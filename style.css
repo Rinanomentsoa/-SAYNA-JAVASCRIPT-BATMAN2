@@ -1,0 +1,488 @@
+body {
+    width: 100%;
+    background: url(./Assets/Illustrations/Bathome1.png) no-repeat;
+    background-size: 100% auto;
+    background-position-x: center;
+    background-color: black;
+    color: white;
+    text-align: justify;
+  }
+
+#bord-haut{
+    width: 1220px;
+    right: 7.5%;
+    position:absolute;
+    top: 15%;
+}
+#vertical-left{
+    height: 3940px;
+    top: -10px;
+    left: -40px;
+    position:absolute;
+}
+#vertical-right{
+    height: 3940px;
+    top: -10px;
+    left: 1177px;
+    position:absolute;
+}
+
+#vertical-left2{
+    height: 1248px;
+    top: 4465px;
+    left: 12px;
+    position:absolute;
+}
+#vertical-right2{
+    height: 1248px;
+    top: 4465px;
+    left: 1227px;
+    position:absolute;
+}
+
+#vertical-left3{
+    height: 848px;
+    top: 6385px;
+    left: 32px;
+    position:absolute;
+}
+#vertical-right3{
+    height: 848px;
+    top: 6385px;
+    left: 1247px;
+    position:absolute;
+}
+
+/* HEADER ICON LAYOUTING AND CUSTOMIZATION */
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  aside ul {
+    list-style-type: none;
+  }
+
+ul[class~="side_icons"] li {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+ul[class~="icon_list"] li {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+
+/*TYPOGRAPHY*/
+h1{
+    font-family:'Rajdhani',medium;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+h2{
+    text-align: center;
+    font-family:'Space Grotesk',bold;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+h3{
+    font-family:'Space Grotesk',regular;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+p{
+    font-family:'Space Grotesk',regular;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+/* HEADER LAYOUTING*/
+.logohome{
+    margin-top: 4%;
+    margin-left: 14%;
+    float: left;
+}
+#home li{
+    list-style-type: none;
+    text-decoration-line: underline;  
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+#home {
+    float: right;
+    margin-right: 14%;
+}
+
+
+/* BUTTONS*/
+#ancre{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+div[class~="button"] {
+    width: fit-content;
+    padding: 2% 5%;
+    margin-top: 2%;
+    margin-right: 4%;
+    align-items: center;
+background: linear-gradient(90deg, rgba(244, 233, 211, 0.4) 22%, rgba(156, 23, 32, 0.6) 82%);
+    
+}
+div[class~="button"]:hover {
+    width: fit-content;
+    padding: 2% 5%;
+    margin-top: 2%;
+    margin-right: 4%;
+    align-items: center;
+background: linear-gradient(90deg, rgb(216, 203, 177) 22%, rgba(156, 23, 32) 82%);
+    
+}
+
+div[class~="button"] a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+}
+#arrow-down{
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+
+/* LAYOUTING*/
+#sidebar{
+    position: absolute;
+    top: 45%;
+    left: 86%;
+
+}
+
+section.hero_text{
+    padding-top: 45%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+section.hero_text h1{
+    text-align: center;
+}
+section.hero_text p{
+    font-size: 22px;
+    text-align: center;
+}
+
+div[class~="hero_image"] {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.first{
+    padding-right: 12%;
+    padding-left: 12%;
+}
+section.justice{
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-bottom: 6%;
+    margin-top: 8%;
+}
+.partie1, .partie2, .partie3{
+    display: flex;
+    align-self: center;
+}
+img.image:hover{
+    width:350px;
+}
+
+/*TEXT ALIGNEMENT */
+p.partie-text{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 16%;
+    margin-bottom: 4%;
+}
+h1.partie-title{
+    margin-left: 3%;
+    margin-right: 16%;
+    margin-top: 7%;
+}
+
+/* IMAGES*/
+#nemesis{
+    width: 140px;
+    position: absolute ;
+    left: 20%;
+    top: 200%;
+    margin-bottom: 0;
+}
+#bat{
+    width: 390px;
+    position: absolute ;
+    right: 0%;
+    top: 298%;
+    margin-bottom: 0;
+}
+
+/* SECTION MULTIMEDIA*/
+
+#ensemble{
+    display: flex;
+    border-radius: 5%;
+    border: 1px solid #FFFFFF;
+}
+#annonce{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#bat-image{
+    border-radius: 0% 12% 0% 10%;
+}
+#text-container{
+    border-radius: 0% 5% 5% 0%;
+    padding: 3%;
+    background-color: rgb(149, 173, 187);
+}
+
+#fl-droite{
+    width: 20%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+#fl-gauche{
+    width: 20%;
+    height: 20%;
+    margin-top: 10%;
+    margin-right: 16%;
+}
+
+h2.multimedia{
+    text-align: start;
+    font-size: 13px;
+    font-weight: 400;
+}
+span.multimedia{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ff0
+} 
+
+p.multimedia{
+    font-size: 12px;
+}
+
+section.multimedia{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 6%;
+}
+h1.multimedia-title{
+    margin-left: 13%;
+    margin-right: 16%;
+    
+}
+#bande-annonce{
+    margin-left: 12%;
+}
+
+video:hover{
+    box-shadow: 2px 8px 52px rgba(227, 220, 204, 0.837) ;
+}
+/* FORM BUTTONS*/
+#ancre1{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+  justify-content: center;
+}
+div[class~="button-form"] {
+    width: fit-content;
+    padding: 0.3% 1%;
+    margin: 1%;
+    align-items: center;
+    background-color: transparent;
+    border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #eddebf,#19587d) 1;
+}
+
+div[class~="button-form"]:hover{
+    width: fit-content;
+    padding: 0.3% 1%;
+    margin: 1%;
+    align-items: center;
+    background: linear-gradient(to right, #eddebfbc,#19587db0);
+    border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #eddebf,#19587d) 1;
+}
+
+div[class~="button-form"] a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 12px;
+}
+
+#ancre2{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+  justify-content: center;
+}
+div[class~="confirm-button"]{
+    justify-content: center;
+    margin-top: 3%;
+    width: fit-content;
+    padding: 1.5% 6%;
+    background: linear-gradient(90deg, rgba(244, 233, 211, 0.4) 22%, rgba(156, 23, 32, 0.6) 82%);
+}
+
+div[class~="confirm-button"]:hover{
+    justify-content: center;
+    margin-top: 3%;
+    width: fit-content;
+    padding: 1.5% 6%;
+    background: linear-gradient(90deg, rgb(216, 203, 177) 22%, rgba(156, 23, 32) 82%);
+}
+
+#confirmer {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 18px;
+}
+
+
+section.contact{
+background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(25,88,125,0.4) 100%);
+    padding-right: 20%;
+    padding-bottom: 4%;
+    padding-left: 20%;
+    margin-bottom: 6%;
+    margin-top: 8%;
+}
+
+
+section.contact h1{
+   text-align: center;
+   padding-top: 5%;
+   margin-bottom: 7%;
+}
+
+label.form {
+    font-family:'Rajdhani',medium;
+    font-size: 22px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+label.form1 {
+    width: 820px;
+    font-family:'Rajdhani',medium;
+    font-size: 16px;
+    color: #fffafa;
+}
+input.form{
+    border: none;
+    border-color: transparent;
+    background: transparent;
+    border-bottom: 1.5px solid #C4C4C4;
+    width: 820px;
+    font-family:'Rajdhani',medium;
+    font-size: 16px;
+    color: #ffffff;
+}
+ select.form {
+    border: none;
+    border-color: transparent;
+    background: transparent;
+    border-bottom: 1.5px solid #C4C4C4;
+    width: 820px;
+    font-family:'Rajdhani',medium;
+    font-size: 16px;
+    color: #C4C4C4;
+}
+input.checkbox{
+    width: 19px;
+    height: 19px;
+}
+div.form-section{
+    margin-top: 3%;
+}
+
+p.quote{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+h5.quote{
+    font-family: 'Space Grotesk', regular ;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#quote-text{
+    margin-top: 20%;
+    margin-bottom: 16%;
+}
+
+#quote-left{
+    position: absolute ;
+    top: 828%;
+    left: 18%;
+    margin-bottom: 0;
+}
+#quote-right{
+    position: absolute ;
+    top: 864%;
+    right: 18%;
+    margin-bottom: 0;
+}
+
+/*FOOTER*/
+#footer-text{
+        display: flex;
+        align-items: center;
+      justify-content: center;
+    }
+#footer-text p{
+    font-family: 'Space Grotesk', regular ;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 9px;
+        
+    }
+
+#footer-icons{
+        display: flex;
+        align-items: center;
+      justify-content: center;
+      padding-top: 1%;
+      padding-bottom: 5%;
+    }
+
+ #footer-icons img{
+    width: 30px;
+    margin: 8px;
+    }
