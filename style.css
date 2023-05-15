@@ -7,52 +7,57 @@ body {
     color: white;
     text-align: justify;
   }
-
+/*BORDER*/
+/*BORDER*/
 #bord-haut{
     width: 1220px;
+    height: 15px;
     right: 7.5%;
     position:absolute;
-    top: 15%;
+    top: 25%;
 }
 #vertical-left{
     height: 3940px;
-    top: -10px;
-    left: -40px;
+    width: 20px;
+    top:-2%;
+    left: 7.2%;
     position:absolute;
 }
 #vertical-right{
     height: 3940px;
-    top: -10px;
-    left: 1177px;
+    width: 20px;
+    top:-2%;
+    right: 6.6%;
     position:absolute;
 }
 
 #vertical-left2{
     height: 1248px;
     top: 4465px;
-    left: 12px;
+    left: 7.2%;
     position:absolute;
 }
 #vertical-right2{
     height: 1248px;
     top: 4465px;
-    left: 1227px;
+    right: 6.6%;
     position:absolute;
 }
 
 #vertical-left3{
     height: 848px;
     top: 6385px;
-    left: 32px;
+    left: 7.2%;
     position:absolute;
 }
 #vertical-right3{
     height: 848px;
     top: 6385px;
-    left: 1247px;
+    right: 6.6%;;
     position:absolute;
 }
 
+  
 /* HEADER ICON LAYOUTING AND CUSTOMIZATION */
 nav ul {
     padding: 0;
@@ -126,24 +131,27 @@ a{
 }
 
 
-div[class~="button"] {
+div[class~="button"]{
     width: fit-content;
     padding: 2% 5%;
     margin-top: 2%;
     margin-right: 4%;
+    margin-left: 2%;
     align-items: center;
-background: linear-gradient(90deg, rgba(244, 233, 211, 0.4) 22%, rgba(156, 23, 32, 0.6) 82%);
-    
+    justify-content: center;
+background: linear-gradient(90deg, rgba(244, 233, 211, 0.4) 22%, rgba(156, 23, 32, 0.6) 82%);   
 }
+
+/* HOVER */
 div[class~="button"]:hover {
     width: fit-content;
     padding: 2% 5%;
     margin-top: 2%;
     margin-right: 4%;
     align-items: center;
-background: linear-gradient(90deg, rgb(216, 203, 177) 22%, rgba(156, 23, 32) 82%);
-    
+background: linear-gradient(90deg, rgb(216, 203, 177) 22%, rgba(156, 23, 32) 82%);    
 }
+
 
 div[class~="button"] a {
     color: #ffffff;
@@ -153,7 +161,7 @@ div[class~="button"] a {
     font-size: 20px;
 }
 #arrow-down{
-    margin-top: 10%;
+    margin-top: 12%;
     margin-left: 50%;
 }
 
@@ -187,6 +195,12 @@ div[class~="hero_image"] {
     justify-content: center;
     align-items: center;
 }
+
+/* IMAGES HOVER*/
+img.image:hover{
+    width: 350px;
+}
+
 section.first{
     padding-right: 12%;
     padding-left: 10%;
@@ -201,9 +215,7 @@ section.justice{
     display: flex;
     align-self: center;
 }
-img.image:hover{
-    width:350px;
-}
+
 
 /*TEXT ALIGNEMENT */
 p.partie-text{
@@ -222,15 +234,14 @@ h1.partie-title{
 #nemesis{
     width: 140px;
     position: absolute ;
-    left: 20%;
-    top: 200%;
-    margin-bottom: 0;
+    left: 300px;
+    top: 1790px;
 }
 #bat{
     width: 390px;
     position: absolute ;
-    right: 0%;
-    top: 298%;
+    right: 0;
+    top: 2550px;
     margin-bottom: 0;
 }
 
@@ -253,7 +264,7 @@ h1.partie-title{
 #text-container{
     border-radius: 0% 5% 5% 0%;
     padding: 3%;
-    background-color: rgb(149, 173, 187);
+    background: linear-gradient(90deg, rgba(237,222,191,0.4) 0%, rgba(25,88,125,0.4) 100%);
 }
 
 #fl-droite{
@@ -447,14 +458,14 @@ h5.quote{
 
 #quote-left{
     position: absolute ;
-    top: 828%;
-    left: 18%;
+    top: 6525px;
+    left: 265px;
     margin-bottom: 0;
 }
 #quote-right{
     position: absolute ;
-    top: 864%;
-    right: 18%;
+    top: 6840px;
+    right: 265px;
     margin-bottom: 0;
 }
 
@@ -486,3 +497,5 @@ h5.quote{
     width: 30px;
     margin: 8px;
     }
+
+    
