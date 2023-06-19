@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  background: url(./Assets/Illustrations/Batgame_1.png) no-repeat;
+  background-size: 100% auto;
+  background-position-x: center;
+  background-color: black;
+  color: white;
+  text-align: justify;
+}
+/*TYPOGRAPHY*/
+h1{
+  font-family:'Rajdhani',medium;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+h2{
+  text-align: center;
+  font-family:'Space Grotesk',bold;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+h3{
+  font-family:'Space Grotesk',regular;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+p{
+  font-family:'Space Grotesk',regular;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+/*HEADER*/
+header{
+    border: #ff0 solid;
+    margin-top: 2rem;
+    padding-inline:2% ;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 7% ;
+  }
+
+  .navigation{
+    border: rgba(102, 209, 106) solid;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation h1{
+    text-decoration: underline;
+    border: #19587d solid;
+    font-family:'Rajdhani',medium;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#sidebar{
+  position: absolute;
+  top: 45%;
+  left: 86%;
+
+}
+aside ul {
+  list-style-type: none;
+}
+
+ul[class~="side_icons"] li {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+ul[class~="icon_list"] li {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+/* MAIN CONTENT */
+#arrow-down{
+  border: #ff0 solid;
+  margin-left: 50%;
+  align-self: center;
+  justify-self: center;
+}
+
+/*FOOTER*/
+#footer-text{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+#footer-text p{
+font-family: 'Space Grotesk', regular ;
+font-weight: 100;
+line-height: 30px;
+font-size: 12px;
+text-align: center;
+margin-left: 9px;
+    
+}
+
+#footer-icons{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+
+#footer-icons img{
+width: 30px;
+margin: 8px;
+}
+
