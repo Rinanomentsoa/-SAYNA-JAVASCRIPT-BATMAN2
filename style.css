@@ -470,13 +470,15 @@ h5.quote{
 }
 
 #quote-text{
+    border: #24d51a solid;
     margin-top: 20%;
+    padding-inline: 24%;
     margin-bottom: 16%;
 }
 
 #quote-left{
     position: absolute ;
-    top: 6525px;
+    top: 6355px;
     left: 265px;
     margin-bottom: 0;
 }
