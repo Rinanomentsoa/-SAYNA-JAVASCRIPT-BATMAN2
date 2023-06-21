@@ -7,7 +7,33 @@ body {
     color: white;
     text-align: justify;
   }
-/*BORDER*/
+/* ANIMATIONS */
+/* ANIMATIONS FADE-IN AU FUR ET À MESURE DU SCROLL*/
+.fade-slide {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .fade-slide.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+/* ANIMATIONS ZOOM AU FUR ET À MESURE DU SCROLL*/
+  .zoom-in {
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  
+  .zoom-in.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  
+
 /*BORDER*/
 #bord-haut{
     width: 1220px;
@@ -118,10 +144,6 @@ ul[class~="icon_list"] li {
 }
 
 
-
-
-
-
 /* BUTTONS*/
 #ancre{
     display: flex;
@@ -173,7 +195,9 @@ div[class~="button"] a {
 }
 
 section.hero_text{
-    padding-top: 45%;
+    border: #24c9dc solid;
+    padding-top: 20%;
+    padding-inline: 15% ;
     margin-left: 15%;
     margin-right: 15%;
     justify-content: center;
@@ -187,16 +211,12 @@ section.hero_text p{
 }
 
 div[class~="hero_image"] {
+    border: #ff0 solid;
     margin-left: 0;
     margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* IMAGES HOVER*/
-img.image:hover{
-    width: 350px;
 }
 
 section.first{
@@ -496,4 +516,41 @@ h5.quote{
     margin: 8px;
     }
 
-    
+ /* CARDS DESCRIPTION */  
+ figure{
+    border: #24c9dc 5px solid;
+ }
+ figcaption{
+border: #24d51a solid;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 96%;
+align-self: center;
+justify-self: center;
+margin-inline: 2%;
+ }
+figcaption h2{
+    justify-items: center;
+    align-items: center;
+background: linear-gradient(273.81deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
+font-size: 0.7rem;
+border-radius: 50px;
+padding:5% 12%;
+margin-inline: 6% ;
+ }
+ figcaption strong{ 
+font-size: 0.6rem;
+color: #F9D493;
+ }
+
+ figcaption img{
+    z-index: 20;
+    position: absolute;
+    bottom: -55px;
+    left: 0;  
+border: 1px solid #000000;
+    border-radius: 174px;
+    position: relative;
+    top: 25%;
+     }

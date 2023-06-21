@@ -35,27 +35,28 @@
     </header>
     <main>
  <!-- DEBUT HERO-HEADER -->
+ <canvas id="canvas" width="600" height="300"></canvas>
 <div class="hero_image">
 
-        <section class="hero_text">
+        <section class="hero_text fade-slide">
            <p>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City.
            Il est vengeur. Il est la nuit.</p>
-           <h1>Il est Batman.</h1>
-           <div id="ancre">
+           <h1 class="fade-slide">Il est Batman.</h1>
+           <div class="fade-slide" id="ancre">
                <div id="hero" class="button"><a href="#" >VOIR LES HÉROS</a></div>
                <div id="adve" class="button"><a href="#" >LES ADVERSAIRES</a></div>
         </div>
        </section>
        <!-- ICONES SUR LES COTÉS, ENCORE À CONFIGURER SUR CSS 1 -->
-           <aside id="sidebar">
+           <aside class="fade-slide" id="sidebar">
            <ul class="side_icons">
-               <li><img src="Assets/Logos/logo_bat_flèche.png" alt="Flèche Batman haut"></li>
+               <li><img src="Assets/Logos/logo_bat_flèche.png" id="scrollToTopImage"  alt="Flèche Batman haut"></li>
                <li><ul class="icon_list">
                    <li><img src="Assets/Logos/icon_facebook.png" alt="Icone Facebook"></li>
                    <li><img src="Assets/Logos/icon_ig.png" alt="Icone Instagram"></li>
                    <li><img src="Assets/Logos/icon_tw.png" alt="Icone Twitter"></li></ul>
                 </li>
-               <li><img src="Assets/Logos/logo_bat_flèche_2.png" alt="Flèche Batman bas"></li>
+               <li><img src="Assets/Logos/logo_bat_flèche_2.png" id="scrollToBottomImage"  alt="Flèche Batman bas"></li>
            </ul>
        </aside>
 </div>
@@ -67,11 +68,11 @@
     <!-- DEBUT SECTION 1 -->
      <section>
         <!-- ARROW DOWN -->
-        <img id="arrow-down" src="Assets/Logos/flèche_down_header.png" alt="Flèche déroulante">
+        <img class="fade-slide" id="arrow-down" src="Assets/Logos/flèche_down_header.png" alt="Flèche déroulante">
          <!-- BATMAN AU CINEMA -->
         <section class="first">
-            <h1 class="partie-title">BATMAN AU CINÉMA</h1>
-            <p class="partie-text">Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le
+            <h1 class="partie-title fade-slide">BATMAN AU CINÉMA</h1>
+            <p class="partie-text fade-slide">Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le
                 dessinateur Bob Kane et le scénariste Bill Finger et apparaît pour la première fois dans le
                 comic book Detective Comics en 1939. Batman se différencie de Superman, alors héros
                 majeur de DC, car il n’a aucun pouvoir. Il sera porté au cinema pour la première fois en 1943
@@ -81,27 +82,37 @@
  <div class="partie1">
                         <!-- IMAGE 1 -->
                     
-            <figure >
+
+            <figure class="fade-slide zoom-in" >
                        <img class="image"
                        src="Assets/Illustrations/Bathome2.png" 
                        alt="Photo Robert Pattinson" >
-                       <figcaption><h2>Robert Pattinson <br> (2022)</h2></figcaption>
+                       
+                <figcaption>
+                        <img class="legend-image" src="Assets/Illustrations/bathomelegend8.png">
+                        <h2>Robert Pattinson <br><strong>2022</strong></h2>
+                </figcaption>
             </figure>
+        
 
                    <!-- IMAGE 2 -->
-           <figure >
+           <figure  class="fade-slide zoom-in">
                            <img class="image"
                            src="Assets/Illustrations/Bathome3.png" 
                            alt="Photo Christian Bale">
-                           <figcaption><h2>Christian Bale<br>(2006 - 2008 - 2012)</h2></figcaption>
+                           <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend9.png">
+                            <h2>Christian Bale<br><strong>2006 - 2008 - 2012</strong></h2></figcaption>
             </figure>
 
                    <!-- IMAGE 3 -->
-            <figure >
+            <figure  class="fade-slide zoom-in">
                            <img class="image"
                            src="Assets/Illustrations/Bathome4.png" 
                            alt="Photo Ben Affleck">
-                        <figcaption><h2>Ben Affleck<br>(2016- 2017/2020 - 2023)</h2></figcaption>
+                        <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend1.png">
+                            <h2>Ben Affleck<br><strong>2016- 2017/2020 - 2023</strong></h2></figcaption>
             </figure>
  </div>
             </section>
@@ -110,39 +121,45 @@
 
      <!-- DEBUT SECTION 2 -->
          <!-- NEMESIS -->
-        <section class="first">
-            <img id="nemesis" src="Assets/Illustrations/Bathome13.png">
+        <section class="first" id="nemesisSection">
+            <img class="fade-slide" id="nemesis" src="Assets/Illustrations/Bathome13.png">
 
-            <h1 class="partie-title">NÉMÉSIS</h1>
-            <p class="partie-text">Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou psychopathes. Avec son introduction dans la Justice League il aura l’occasion de se mesurer à des antagonistes qui défient l’imagination et les lois de la physique. Parmi les derniers ennemis emblématiques que nous avons pu voir au cinéma, on retrouve : </p>
+            <h1 class="partie-title fade-slide">NÉMÉSIS</h1>
+            <p class="partie-text fade-slide">Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou psychopathes. Avec son introduction dans la Justice League il aura l’occasion de se mesurer à des antagonistes qui défient l’imagination et les lois de la physique. Parmi les derniers ennemis emblématiques que nous avons pu voir au cinéma, on retrouve : </p>
              <!-- LES IMAGES -->
  <div class="partie2">
                         <!-- IMAGE 1 -->
                     
-            <figure >
+            <figure class="fade-slide zoom-in card">
                        <img class="image"
                        src="Assets/Illustrations/Bathome5.png" 
                        alt="Photo Riddler - Paul Dano" >
-                       <figcaption><h2>The Riddler - Paul Dano <br>
-                        (2022)</h2></figcaption>
+                       <figcaption>
+                        <img class="legend-image" src="Assets/Illustrations/bathomelegend2.png">
+                        <h2>The Riddler - Paul Dano <br>
+                        <strong>2022</strong></h2></figcaption>
             </figure>
 
                    <!-- IMAGE 2 -->
-           <figure >
+           <figure class="fade-slide zoom-in card" >
                            <img class="image"
                            src="Assets/Illustrations/Bathome6.png" 
                            alt="Photo Le Joker">
-                           <figcaption><h2>Le Joker - Heath Ledger<br>
-                            (2008)</h2></figcaption>
-            </figure>
+                           <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend6.png">
+                            <h2>Le Joker - Heath Ledger<br>
+                            <strong>2008</strong></h2></figcaption>
+            </figure >
 
                    <!-- IMAGE 3 -->
-            <figure >
+            <figure class="fade-slide zoom-in card" >
                            <img class="image"
                            src="Assets/Illustrations/Bathome7.png" 
                            alt="Photo  Ray Porter">
-                        <figcaption><h2>Darkseid - Ray Porter<br>
-                            (2022)</h2></figcaption>
+                        <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend5.png">
+                            <h2>Darkseid - Ray Porter<br>
+                            <strong>2022</strong></h2></figcaption>
             </figure>
  </div>
      
@@ -152,39 +169,45 @@
      <!-- DEBUT SECTION 3 -->
          <!-- ALLIÉS -->
 
-         <img id="bat" src="Assets/Illustrations/Bathome12.png">
+         <img class="fade-slide" id="bat" src="Assets/Illustrations/Bathome12.png">
          <section class="first">
 
-            <h1 class="partie-title">Alliés</h1>
-            <p class="partie-text">Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce avant de l’assister dans son rôle du Batman. Ce dernier rencontrera Catwoman dès le premier numéro des aventures de l’homme-chauve souris en 1940. Tantôt ennemie tantôt alliée la jeune femme fatale fera tourner la tête de Batman à maintes reprises. Du côté de la police, Bruce pourra compter sur l’aide infaillible de James Gordon, “Jim”, qui désire lui aussi nettoyer sa ville de la criminalité qui y règne. </p>
+            <h1 class="partie-title fade-slide">Alliés</h1>
+            <p class="partie-text fade-slide">Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce avant de l’assister dans son rôle du Batman. Ce dernier rencontrera Catwoman dès le premier numéro des aventures de l’homme-chauve souris en 1940. Tantôt ennemie tantôt alliée la jeune femme fatale fera tourner la tête de Batman à maintes reprises. Du côté de la police, Bruce pourra compter sur l’aide infaillible de James Gordon, “Jim”, qui désire lui aussi nettoyer sa ville de la criminalité qui y règne. </p>
              <!-- LES IMAGES -->
  <div class="partie3">
                         <!-- IMAGE 1 -->
                     
-            <figure >
+            <figure  class="fade-slide zoom-in">
                        <img class="image"
-                       src="Assets/Illustrations/Bathome8.png" 
+                       src="Assets/Illustrations/Bathome9.png" 
                        alt="Photo Michael Cain" >
-                       <figcaption><h2>Alfred Pennyworth - Michael Cain<br>
-                        (2006 - 2008 - 2012) 
+                       <figcaption>
+                        <img class="legend-image" src="Assets/Illustrations/bathomelegend3.png">
+                        <h2>Alfred Pennyworth<br>
+                        <strong>2006 - 2008 - 2012</strong>
                        </h2></figcaption>
             </figure>
 
                    <!-- IMAGE 2 -->
-           <figure > 
+           <figure class="fade-slide zoom-in"> 
                            <img class="image"
-                           src="Assets/Illustrations/Bathome9.png" 
+                           src="Assets/Illustrations/Bathome8.png" 
                            alt="Photo Catwoman">
-                           <figcaption><h2>Catwoman - Zoé Kravitz<br>
-                            (2008)</h2></figcaption>
+                           <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend4.png">
+                            <h2>Catwoman - Zoé Kravitz<br>
+                            <strong>2008</strong></h2></figcaption>
             </figure>
 
                    <!-- IMAGE 3 -->
-            <figure >
+            <figure class="fade-slide zoom-in">
                            <img class="image"
                            src="Assets/Illustrations/Bathome10.png" 
                            alt="Photo  James Gordon">
-                        <figcaption><h2>James Gordon<br>(2014-2019)
+                        <figcaption>
+                            <img class="legend-image" src="Assets/Illustrations/bathomelegend7.png">
+                            <h2>James Gordon<br><strong>2014-2019</strong>
                            </h2></figcaption>
             </figure>
  </div>
@@ -195,12 +218,12 @@
 
      <!-- DEBUT SECTION JUSTICE LEAGUE -->
          <!--JUSTICE LEAGUE -->
-         <section class="justice">
-            <h1 class="justice-title">JUSTICE LEAGUE</h1>
-            <p class="justice-text">Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne sera pas chose aisée. Ensemble ils forment la Justice League, les plus grands super- héros de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces extraterrestres ou surnaturelles menacent son existence. </p>
+         <section class="justice" id="justiceSection">
+            <h1 class="justice-title fade-slide">JUSTICE LEAGUE</h1>
+            <p class="justice-text fade-slide">Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne sera pas chose aisée. Ensemble ils forment la Justice League, les plus grands super- héros de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces extraterrestres ou surnaturelles menacent son existence. </p>
         </section>
-    <div class="justice3">
-        <img src="Assets/Illustrations/Bathome11.png" alt="Photo Justice League" >
+    <div class="justice3 fade-slide">
+        <img  class="zoom-in" src="Assets/Illustrations/Bathome11.png" alt="Photo Justice League" >
     </div>
      <!-- FIN SECTION JUSTICE LEAGUE -->
 
@@ -227,7 +250,7 @@
 </section>
     <!--  FIN SECTION MULTIMEDIA -->
 
-    <video id="bande-annonce" src="https://www.youtube.com/watch?v=jXrFsn9pcZY" preload="auto"
+    <video class="zoom-in" id="bande-annonce" src="https://www.youtube.com/watch?v=jXrFsn9pcZY" preload="auto"
     poster="Assets/Illustrations/Bathome_ba2.png" controls>
     <p>
         Dans le cas où votre navigateur ne parvient pas à charger la video,
@@ -236,7 +259,7 @@
     </p>
 </video> 
 
-<section class="contact">
+<section class="contact fade-slide">
 <h1> PRENONS CONTACT</h1>
 <form action="#">
      <div class="form-section">
@@ -286,7 +309,7 @@
     </main>
 
     <!-- PIED DE PAGE -->
-    <footer>
+    <footer class="fade-slide">
         <div id="footer-text">
             <img src="Assets/Logos/icon_WB.png" >
             <p>  Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
@@ -301,5 +324,6 @@
 
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
